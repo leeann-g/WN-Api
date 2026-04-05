@@ -8,3 +8,5 @@ Route::get('/index', function(){
         'mensaje' => 'Base del proyecto listo para enviar el primer commit'
     ]);
 });
+
+Route::apiResource('/task',);
